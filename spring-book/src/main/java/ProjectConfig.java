@@ -1,10 +1,12 @@
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
 /**
  * @author Minoltan Issack on 12/3/2022
  */
 @Configuration
+@ComponentScan(basePackages = "main")
 public class ProjectConfig {
     @Bean
     Parrot parrot1() {

@@ -19,5 +19,9 @@ public class Main {
         System.out.println(s);
         Integer n = context.getBean(Integer.class);
 
+        // Stereo type
+        ParrotStereo parrotStereo = context.getBean(ParrotStereo.class);
+        System.out.println(parrot1.getName());
+
     }
 }
